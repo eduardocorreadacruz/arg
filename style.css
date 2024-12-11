@@ -302,3 +302,25 @@ form button:hover {
 .link_pad:hover {
     background-color: #27522a;
 }
+
+@media (max-width: 768px) {
+    aside.noticias {
+        position: relative; /* Muda a posição para relativa */
+        top: auto; /* Remove qualquer deslocamento */
+        width: 100%; /* Define a largura para 100% */
+        margin: 20px 0; /* Adiciona uma margem em cima e embaixo */
+    }
+
+    .btn {
+        display: block; /* Garante que o botão seja um bloco e ocupe toda a largura */
+        width: 100%; /* Faz o botão ocupar toda a largura disponível */
+        padding: 15px; /* Aumenta o padding para um toque mais fácil */
+        font-size: 18px; /* Aumenta o tamanho da fonte para melhor legibilidade */
+        margin-top: 10px; /* Adiciona uma margem superior para espaçamento */
+        box-sizing: border-box; /* Inclui padding e borda na largura total */
+    }
+
+    .container {
+        width: 90%; /* Ajusta a largura do container para telas menores */
+    }
+}
