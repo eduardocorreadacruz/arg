@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="site.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Sobre Nós</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Salvando a Natureza</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                </ul>
+                
+            </nav>
+            <div class="dropdown">
+                <a href="login.html" class="btn">log-In</a>
+                
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="missao">
+        <div class="container">
+            <h2>Nossa Missão</h2>
+            <p>Nosso objetivo é promover a conscientização sobre a importância das árvores e do meio ambiente. Trabalhamos para restaurar áreas degradadas, educar as comunidades e incentivar práticas sustentáveis que beneficiem tanto as pessoas quanto a natureza.</p>
+            <p>Acreditamos que a mudança começa com a educação e a conscientização, e estamos aqui para fazer a diferença.</p>
+        </div>
+    </section>
+    
+    <section id="servicos">
+        <div class="container">
+            <h2>Nossos Serviços</h2>
+            <div class="servicos-grid">
+                <div class="servico">
+                    <h3>Reflorestamento</h3>
+                    <p>Realizamos projetos de reflorestamento em áreas degradadas, plantando árvores nativas e restaurando ecossistemas.</p>
+                </div>
+                <div class="servico">
+                    <h3>Educação Ambiental</h3>
+                    <p>Oferecemos workshops e palestras para escolas e comunidades, promovendo a conscientização sobre a preservação da natureza.</p>
+                </div>
+                <div class="servico">
+                    <h3>Consultoria Ambiental</h3>
+                    <p>Prestamos consultoria para empresas que desejam implementar práticas sustentáveis em suas operações.</p>
+                </div>
+                <div class="servico">
+                    <h3>Eventos de Limpeza</h3>
+                    <p>Organizamos eventos de limpeza em praias, parques e áreas urbanas, envolvendo a comunidade na preservação do meio ambiente.</p>
+                </div>
+                <div class="servico">
+                    <h3>Campanhas de Conscientização</h3>
+                    <p>Desenvolvemos campanhas para aumentar a conscientização sobre a importância da preservação ambiental e do uso sustentável dos recursos naturais.</p>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+
+
+
+
+
+    <div class="card">  
+        <span class="question">Quanto Cobramos por isso?</span>  
+        <button class="add-button" onclick="toggleDetails1()">+</button>  
+        <div id="details1" class="details hidden">  
+            <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>  
+        </div>  
+    </div>  
+    <br>
+    <br>
+    <div class="card">  
+        <span class="question">O que é reflorestamento?</span>  
+        <button class="add-button" onclick="toggleDetails2()">+</button>  
+        <div id="details2" class="details hidden">  
+            <p>Explicação do conceito e importância do reflorestamento na preservação do meio ambiente.</p>  
+        </div>  
+    </div>  
+    <br>
+    <br>
+    <div class="card">  
+        <span class="question">Por que o reflorestamento é importante?</span>  
+        <button class="add-button" onclick="toggleDetails3()">+</button>  
+        <div id="details3" class="details hidden">  
+            <p>Discussão sobre os benefícios, como a conservação da biodiversidade, mitigação das mudanças climáticas e recuperação de solos.</p>  
+        </div>  
+    </div>
+    <br>
+    <br> 
+    <div class="card">  
+        <span class="question">Como posso ajudar no reflorestamento?</span>  
+        <button class="add-button" onclick="toggleDetails4()">+</button>  
+        <div id="details4" class="details hidden">  
+            <p>Sugestões de ações que os indivíduos e comunidades podem tomar, como plantar árvores, fazer doações ou participar de projetos de reflorestamento.</p>  
+        </div>  
+    </div>  
+
+
+
+
+
+
+
+
+      <section id="contato">
+        <div class="container">
+            <h2>Contato</h2>
+            <form id="contact-form">
+                <label for="from_name">Nome:</label>
+                <input type="text" id="from_name" name="from_name" required>
+    
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="message">Mensagem:</label>
+                <textarea id="mensagem" name="message" rows="5" required></textarea>
+    
+                <button type="submit">Enviar</button>
+            </form>
+            <div id="response-message" class="response-message"></div>        </div>
+    </section>
+
+      <footer>
+          <div class="container">
+              <p>&copy; 2023 Salvando a Natureza. Todos os direitos reservados.</p>
+          </div>
+      </footer>
+</body>
+</html>

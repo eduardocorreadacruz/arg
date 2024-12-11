@@ -84,19 +84,20 @@ function moveNoticia4() {
 setTimeout(moveNoticia3, 6000);
     });
     
-    function toggleDropdown() {
-        document.getElementById("botao_login").classList.toggle("show");
-    }
-
-    window.onclick = function(event) {
-        if (!event.target.matches('.btn')) {
-            var dropdowns = document.getElementsByClassName("conteudo_botao");
-            for (var i = 0; i < dropdowns.length; i++) {
-                var openDropdown = dropdowns[i];
-                if (openDropdown.classList.contains('show')) {
-                    openDropdown.classList.remove('show');
-                }
-            }
-        }
-}
+    function toggleDetails1() {  
+        const details1 = document.getElementById('details1');  
+        details1.classList.toggle('hidden');  
+    }  
+    function toggleDetails2() {  
+        const details2 = document.getElementById('details2');  
+        details2.classList.toggle('hidden');  
+    }  
+    function toggleDetails3() {  
+        const details3 = document.getElementById('details3');  
+        details3.classList.toggle('hidden');  
+    }  
+    function toggleDetails4() {  
+        const details4 = document.getElementById('details4');  
+        details4.classList.toggle('hidden');  
+    }  
 
