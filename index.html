@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salvando a Natureza</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="site.js" defer></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+</head>
+<body>
+
+
+    <aside class="noticias">
+        <div class="container">
+            <h2>Notícias Fictícias</h2>
+            <div class="carousel">
+                <ul class="carousel-list">
+                    <li class="noticias_tab" id="noticias_tab1">
+                        <div>
+                            <strong>Nova Floresta Plantada:</strong> Uma nova área de reflorestamento foi concluída com sucesso, plantando mais de 10.000 árvores nativas.
+                        </div>
+                    </li>
+                    <li class="noticias_tab" id="noticias_tab2">
+                        <div>
+                            <strong>Limpeza de Praia:</strong> Nossa equipe organizou um evento de limpeza na Praia do Sol, removendo mais de 500 kg de lixo.
+                        </div>
+                    </li>
+                    <li class="noticias_tab" id="noticias_tab3">
+                        <div>
+                            <strong>Campanha de Conscientização:</strong> Lançamos uma nova campanha para promover a preservação das florestas urbanas.
+                        </div>
+                    </li>
+                    <li class="noticias_tab" id="noticias_tab4">
+                        <div>
+                            <strong>Parceria com Escolas:</strong> Firmamos uma parceria com escolas locais para promover a educação ambiental entre os jovens.
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </aside>
+
+    <header>
+        <div class="container">
+            <h1>Salvando a Natureza</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#missao">Missão</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+                
+            </nav>
+            <div class="dropdown">
+                <a href="login.html" class="btn">log-In</a>
+                
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="sobre">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>Somos uma empresa dedicada à preservação do meio ambiente e à promoção da sustentabilidade. Acreditamos que as árvores e a natureza são essenciais para a vida no planeta e estamos comprometidos em proteger e restaurar os ecossistemas. Nossa equipe é formada por especialistas em meio ambiente, educadores e voluntários apaixonados pela causa.</p>
+            <p>Trabalhamos em projetos que visam a recuperação de áreas degradadas, a educação ambiental e a promoção de práticas sustentáveis em comunidades e empresas.</p>
+        </div>
+    </section>
+
+    <section id="missao">
+        <div class="container">
+            <h2>Nossa Missão</h2>
+            <p>Nosso objetivo é promover a conscientização sobre a importância das árvores e do meio ambiente. Trabalhamos para restaurar áreas degradadas, educar as comunidades e incentivar práticas sustentáveis que beneficiem tanto as pessoas quanto a natureza.</p>
+            <p>Acreditamos que a mudança começa com a educação e a conscientização, e estamos aqui para fazer a diferença.</p>
+        </div>
+    </section>
+
+    <section id="servicos">
+        <div class="container">
+            <h2>Nossos Serviços</h2>
+            <div class="servicos-grid">
+                <div class="servico">
+                    <h3>Reflorestamento</h3>
+                    <p>Realizamos projetos de reflorestamento em áreas degradadas, plantando árvores nativas e restaurando ecossistemas.</p>
+                </div>
+                <div class="servico">
+                    <h3>Educação Ambiental</h3>
+                    <p>Oferecemos workshops e palestras para escolas e comunidades, promovendo a conscientização sobre a preservação da natureza.</p>
+                </div>
+                <div class="servico">
+                    <h3>Consultoria Ambiental</h3>
+                    <p>Prestamos consultoria para empresas que desejam implementar práticas sustentáveis em suas operações.</p>
+                </div>
+                <div class="servico">
+                    <h3>Eventos de Limpeza</h3>
+                    <p>Organizamos eventos de limpeza em praias, parques e áreas urbanas, envolvendo a comunidade na preservação do meio ambiente.</p>
+                </div>
+                <div class="servico">
+                    <h3>Campanhas de Conscientização</h3>
+                    <p>Desenvolvemos campanhas para aumentar a conscientização sobre a importância da preservação ambiental e do uso sustentável dos recursos naturais.</p>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <section id="contato">
+        <div class="container">
+            <h2>Contato</h2>
+            <form id="contact-form">
+                <label for="from_name">Nome:</label>
+                <input type="text" id="from_name" name="from_name" required>
+    
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="message">Mensagem:</label>
+                <textarea id="mensagem" name="message" rows="5" required></textarea>
+    
+                <button type="submit">Enviar</button>
+            </form>
+            <div id="response-message" class="response-message"></div>        </div>
+    </section>
+
+      <footer>
+          <div class="container">
+              <p>&copy; 2023 Salvando a Natureza. Todos os direitos reservados.</p>
+          </div>
+      </footer>
+  </body>
+  </html>
