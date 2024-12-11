@@ -23,7 +23,6 @@
         const noticiasTab3 = document.getElementById("noticias_tab3");
         const noticiasTab4 = document.getElementById("noticias_tab4");
     
-        // Função para mover a notícia 1
         function moveNoticia1() {
             noticiasTab1.classList.add("hidden");
             setTimeout(() => {
@@ -37,10 +36,8 @@
             }, 1000);
         }
     
-        // Chama a função para mover a notícia 1
         moveNoticia1();
     
-        // Função para mover a notícia 2
         function moveNoticia2() {
             noticiasTab2.classList.add("hidden");
             setTimeout(() => {
@@ -54,11 +51,9 @@
             }, 1000);
         }
     
-        // Chama a função para mover a notícia 2 após 3000 milissegundos
         setTimeout(moveNoticia2, 3000);
     
-        // Função para mover a notícia 3
-// Função para mover a notícia 3  
+
 function moveNoticia3() {  
     noticiasTab3.classList.add("hidden");  
     setTimeout(() => {  
@@ -68,13 +63,11 @@ function moveNoticia3() {
         setTimeout(() => {  
             noticiasTab3.classList.remove("hidden");  
             noticiasTab3.classList.add("appear");  
-            // Chama a função para mover a notícia 4 após 6 segundos da notícia 3  
             setTimeout(moveNoticia4, 6000);  
         }, 10);  
     }, 1000);  
 }  
 
-// Função para mover a notícia 4  
 function moveNoticia4() {  
     noticiasTab4.classList.add("hidden");  
     setTimeout(() => {  
@@ -88,7 +81,6 @@ function moveNoticia4() {
     }, 1000);  
 }  
 
-// Chama a função para mover a notícia 3 após 6000 milissegundos  
 setTimeout(moveNoticia3, 6000);
     });
     
@@ -96,7 +88,6 @@ setTimeout(moveNoticia3, 6000);
         document.getElementById("botao_login").classList.toggle("show");
     }
 
-    // Fecha o dropdown se o usuário clicar fora dele
     window.onclick = function(event) {
         if (!event.target.matches('.btn')) {
             var dropdowns = document.getElementsByClassName("conteudo_botao");
@@ -107,5 +98,5 @@ setTimeout(moveNoticia3, 6000);
                 }
             }
         }
-    }
+}
 
