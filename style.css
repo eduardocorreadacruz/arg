@@ -305,22 +305,22 @@ form button:hover {
 
 @media (max-width: 768px) {
     aside.noticias {
-        position: relative; /* Muda a posição para relativa */
-        top: auto; /* Remove qualquer deslocamento */
-        width: 100%; /* Define a largura para 100% */
-        margin: 20px 0; /* Adiciona uma margem em cima e embaixo */
+        position: relative;
+        top: auto;
+        width: 100%;
+        margin: 20px 0;
     }
 
     .btn {
-        display: block; /* Garante que o botão seja um bloco e ocupe toda a largura */
-        width: 100%; /* Faz o botão ocupar toda a largura disponível */
-        padding: 15px; /* Aumenta o padding para um toque mais fácil */
-        font-size: 18px; /* Aumenta o tamanho da fonte para melhor legibilidade */
-        margin-top: 10px; /* Adiciona uma margem superior para espaçamento */
-        box-sizing: border-box; /* Inclui padding e borda na largura total */
+        display: block; 
+        width: 100%;
+        padding: 15px;
+        font-size: 18px;
+        margin-top: 10px;
+        box-sizing: border-box;
     }
 
     .container {
-        width: 90%; /* Ajusta a largura do container para telas menores */
+        width: 90%;
     }
 }
