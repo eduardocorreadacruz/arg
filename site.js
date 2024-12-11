@@ -5,7 +5,7 @@
           document.getElementById("contact-form").addEventListener("submit", function(event) {
               event.preventDefault();
       
-              emailjs.sendForm("asserteddock", "asserteddock_template", this)
+              emailjs.sendForm("genericoparatestarg", "template_kvkuboq", this)
               .then(function() {
                 const responseMessage = document.getElementById("response-message");
                 responseMessage.innerText = "E-mail enviado com sucesso!";
