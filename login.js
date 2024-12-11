@@ -13,13 +13,13 @@ function toggleForm(formType) {
 
 document.getElementById("entrarFuncionario").addEventListener("click", function() {
     const codigoAcesso = document.getElementById("codigoAcesso").value;
-    const codigoCorreto = "0000"; // Substitua por seu código correto
+    const codigoCorreto = "0000";
 
     if (codigoAcesso === codigoCorreto) {
-        window.location.href = "paginaFuncionario.html"; // Redireciona para a página do funcionário
+        window.location.href = "paginaFuncionario.html";
     } else {
         const errorMessage = document.getElementById("error-message");
         errorMessage.innerText = "Código de acesso incorreto. Tente novamente.";
-        errorMessage.style.display = "block"; // Exibe a mensagem de erro
+        errorMessage.style.display = "block";
     }
 })
